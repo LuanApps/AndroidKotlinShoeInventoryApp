@@ -1,3 +1,7 @@
+# Android Project for Udacity Android Kotlin Developer Nanodegree Program - Curse 1
+
+# Made By Luan Ramos
+
 # The Shoe Store
 
 This project will consist of five screens. You don't have to create a shoe store, you can use any other item as long as you create the following screens. You will be creating:
