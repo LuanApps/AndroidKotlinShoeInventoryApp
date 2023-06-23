@@ -2,6 +2,9 @@
 <layout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- I have choose to use ConstrantLayout here, because it's flexible, responsible, and a lot more easy to make nice layouts-->
+
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:layout_width="match_parent"

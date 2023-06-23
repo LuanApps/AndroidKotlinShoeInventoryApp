@@ -12,6 +12,8 @@
         <import type="android.view.View"/>
     </data>
 
+    <!-- I have choose to use ConstrantLayout here, because it's flexible, responsible, and a lot more easy to make nice layouts-->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,6 +30,9 @@
             android:src="@drawable/ic_add"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Both ScrollView and LinearLayout are project requirements for this fragment, to it's why I have choose them-->
+        <!-- ScrollView is necessary to store more views than the user device height can show. With this the user can scroll down and up the list. The Linear Layout is used here to polulate the Shoes item list-->
 
         <ScrollView
             android:layout_width="409dp"
